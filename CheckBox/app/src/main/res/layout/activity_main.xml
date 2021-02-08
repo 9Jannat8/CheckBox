@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <CheckBox
+        android:id="@+id/milkid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/milk_text"
+        android:textSize="20sp"
+        app:buttonTint="#E91E63" />
+
+    <CheckBox
+        android:id="@+id/sugarid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/sugar_text"
+        android:textSize="20sp"
+        app:buttonTint="#E91E63" />
+
+    <CheckBox
+        android:id="@+id/waterid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:shadowColor="#E91E63"
+        android:text="@string/water_text"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:buttonTint="#E91E63" />
+
+    <Button
+        android:id="@+id/btnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FDFCFC"
+        android:textColor="@color/black"
+        android:text="@string/button_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#ECEBEB" />
+
+    <TextView
+        android:id="@+id/txtviewid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
